@@ -1,0 +1,50 @@
+# ============================================
+# img2cad - CAD-PGN
+# Python+图像工程项目的通用忽略规则
+# ============================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.whl
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+
+# --- Virtual environment ---
+venv/
+.env
+.venv/
+
+# --- Node.js ---
+node_modules/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Build / runtime outputs (generated per run) ---
+*.log
+*.out
+out.*
+draw.svg
+merged.dxf
+preview.png
+overlay.png
+side.png
+*_preview.png
+*_compare.png
+
+# --- Sample output dirs created by the tool ---
+**/sample_out/
+**/output/
