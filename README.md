@@ -1,4 +1,15 @@
-# img2cad — --CAD-PGN
+---
+AIGC:
+    Label: "1"
+    ContentProducer: 001191440300708461136T1XGW3
+    ProduceID: d09d4553e9e5a649bfef32d135f2ceba_b215db4fe9bc11f1afe3525400ffa3eb
+    ReservedCode1: 1xgza5d6rBApKz0vV0tRj7kE8PdalHb4yJlyV6hL+IVrtrmEJM2M0u2IjtPkyXSE/KQ+7ybWUNuhR54KBlwwkYNcBq9msNynLGYHOOVcYYsABaQeHyLqDrDBiwROj9eMH8wq9HbAEhjwxmBX5aPkxOsaQyXF37bhiRaaMElG8TS3yhsbmi0Tf1TUTPw=
+    ContentPropagator: 001191440300708461136T1XGW3
+    PropagateID: d09d4553e9e5a649bfef32d135f2ceba_b215db4fe9bc11f1afe3525400ffa3eb
+    ReservedCode2: 1xgza5d6rBApKz0vV0tRj7kE8PdalHb4yJlyV6hL+IVrtrmEJM2M0u2IjtPkyXSE/KQ+7ybWUNuhR54KBlwwkYNcBq9msNynLGYHOOVcYYsABaQeHyLqDrDBiwROj9eMH8wq9HbAEhjwxmBX5aPkxOsaQyXF37bhiRaaMElG8TS3yhsbmi0Tf1TUTPw=
+---
+
+# 手绘草图转 CAD 与 PGN
 
 把手绘或画图板绘制的工业管道图按工程制图规矩重绘为 CAD 风格的二维线稿，同时输出高清 PNG 光栅图与可编辑的 DXF 矢量文件。不依赖任何 AI 生图模型，所有几何均由代码直接构造：先读图并判断语义，再按工程规范绘制，最后同源直出 SVG/DXF/PNG 三件套，并以叠比对完成视觉自检。
 
@@ -88,3 +99,4 @@ pwsh -File <skill>\scripts\build.ps1 -Svg D:\out\draw.svg -Script D:\out\gen_x.p
 - **连通域膨胀勿用 np.roll**
 - **不臆造**：原图没有的中心线、引线、法兰盘、支座不要添加；原图有的不要删除
 - **纯白底黑线**，无阴影，中心线细点划线 (34 9 6 9)，隐藏结构虚线 (12 7)
+*（内容由AI生成，仅供参考）*
