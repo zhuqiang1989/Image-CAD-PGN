@@ -88,4 +88,3 @@ pwsh -File <skill>\scripts\build.ps1 -Svg D:\out\draw.svg -Script D:\out\gen_x.p
 - **连通域膨胀勿用 np.roll**
 - **不臆造**：原图没有的中心线、引线、法兰盘、支座不要添加；原图有的不要删除
 - **纯白底黑线**，无阴影，中心线细点划线 (34 9 6 9)，隐藏结构虚线 (12 7)
-*（内容由AI生成，仅供参考）*
